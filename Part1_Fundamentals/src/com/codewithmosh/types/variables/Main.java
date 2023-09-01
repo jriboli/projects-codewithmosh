@@ -2,8 +2,10 @@ package com.codewithmosh.types.variables;
 
 import java.awt.*;
 import java.sql.SQLOutput;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
 
@@ -59,10 +61,51 @@ public class Main {
 
         int[] numbersNewWay = {2, 3, 4, 5, 1}; // Java arrays have a fixed length
         Arrays.sort(numbersNewWay);
-        
+
         int[][] multiDemiNumbers = new int[2][3];
         multiDemiNumbers[0][1] = 1;
         System.out.println(Arrays.deepToString(multiDemiNumbers)); // new method due to multidimensional array
+
+        // CONSTANTS
+        final float PI = 3.14F; // constants should be all CAPS
+
+        // ARITHMETIC EXPRESSIONS
+        int firstX = 1;
+        int firstY = firstX++;
+        int secondY = ++firstX;
+        System.out.println(firstX);
+        System.out.println(firstY);
+        System.out.println(secondY);
+
+        // ORDER OF OPERATIONS
+        // P E MD AS
+
+        // IMPLICIT CASTING
+        short implyX = 1;
+        int implyY = implyX + 1; // Java says short (2 bytes) can fit into int (4 bytes)
+        System.out.println(implyY);
+
+        // EXPLICIT CASTING
+        // byte > short > int > long > float > double
+        double explX = 1.1;
+        int explY = (int)explX + 2;
+        System.out.println("---------------");
+
+        // MATH CLASS
+        int xResult = Math.round(1.1F);
+        double yResult = Math.ceil(1.1);
+        double zResult = Math.floor(1.9);
+        System.out.println(xResult);
+        System.out.println(yResult);
+        System.out.println(zResult);
+
+        // NUMBER FORMATTING
+        NumberFormat currency = NumberFormat.getCurrencyInstance(); // Asbstract class - use factory to return instance
+        String result = currency.format(1234567.891);
+        System.out.println(result);
+
+        // READING USER INPUT
+        Scanner scanner = new Scanner();
 
     }
 }
