@@ -1,7 +1,6 @@
-package com.codewithmosh.types.variables;
+package com.codewithmosh.types;
 
 import java.awt.*;
-import java.sql.SQLOutput;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -65,6 +64,7 @@ public class Main {
         int[][] multiDemiNumbers = new int[2][3];
         multiDemiNumbers[0][1] = 1;
         System.out.println(Arrays.deepToString(multiDemiNumbers)); // new method due to multidimensional array
+        System.out.println("---------------");
 
         // CONSTANTS
         final float PI = 3.14F; // constants should be all CAPS
@@ -76,6 +76,7 @@ public class Main {
         System.out.println(firstX);
         System.out.println(firstY);
         System.out.println(secondY);
+        System.out.println("---------------");
 
         // ORDER OF OPERATIONS
         // P E MD AS
@@ -84,6 +85,7 @@ public class Main {
         short implyX = 1;
         int implyY = implyX + 1; // Java says short (2 bytes) can fit into int (4 bytes)
         System.out.println(implyY);
+        System.out.println("---------------");
 
         // EXPLICIT CASTING
         // byte > short > int > long > float > double
@@ -98,14 +100,17 @@ public class Main {
         System.out.println(xResult);
         System.out.println(yResult);
         System.out.println(zResult);
+        System.out.println("---------------");
 
         // NUMBER FORMATTING
         NumberFormat currency = NumberFormat.getCurrencyInstance(); // Asbstract class - use factory to return instance
         String result = currency.format(1234567.891);
         System.out.println(result);
+        System.out.println("---------------");
 
         // READING USER INPUT
-        Scanner scanner = new Scanner();
-
+        Scanner scanner = new Scanner(System.in);
+        byte yourAge = scanner.nextByte();
+        System.out.println("You are " + yourAge);
     }
 }
