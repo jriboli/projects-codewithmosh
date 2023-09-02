@@ -1,4 +1,4 @@
-package com.codewithmosh.fizzbuzz;
+package com.codewithmosh.lab_fizzbuzz;
 
 import java.util.Scanner;
 

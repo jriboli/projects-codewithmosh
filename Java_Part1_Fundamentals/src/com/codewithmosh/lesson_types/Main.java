@@ -1,4 +1,4 @@
-package com.codewithmosh.types;
+package com.codewithmosh.lesson_types;
 
 import java.awt.*;
 import java.text.NumberFormat;

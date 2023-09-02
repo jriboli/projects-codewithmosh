@@ -1,4 +1,6 @@
-package com.codewithmosh.controlflow;
+package com.codewithmosh.lesson_controlflow;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
@@ -48,5 +50,27 @@ public class Main {
                 System.out.println("You're a guest");
         }
         // CAN USE WITH NUMBERS - BYTE, SHORT, INT
+
+        // FOR LOOP
+        // WHILE LOOP
+        // Interesting note - can not use comparison operator for reference types (ie Strings)
+        // it will compare the location of the reference and not the value
+        Scanner scanner2 = new Scanner(System.in);
+        String userInput = "";
+        while(true) {
+            System.out.print("Enter Input:");
+            userInput = scanner2.next().toLowerCase();
+            if(userInput.equals("pass"))
+                continue; // skips rest of code block start loop over again
+            if(userInput.equals("quit"))
+                break;
+            System.out.println(userInput);
+        }
+
+        // FOR EACH LOOP - to loop over iteratibles - ie Arrays
+        String[] fruits = {"Apple", "Orange", "Banana"};
+        for (String fruit : fruits){
+            System.out.println(fruit);
+        }
     }
 }
