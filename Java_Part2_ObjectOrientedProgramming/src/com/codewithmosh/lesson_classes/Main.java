@@ -27,11 +27,11 @@ public class Main {
         // after a period of time a process with clean these up - This is called
         // Garbage Collection
 
-        var employee = new Employee();
+        var employee = new Employee(50_000, 20);
         // Encapsulate logic into the Employee Class
         // Not to be visible outside the Class
-        employee.setBaseSalary(50_000);
-        employee.setHourlyRate(20);
+            //employee.setBaseSalary(50_000);
+            //employee.setHourlyRate(20);
         int wage = employee.calculateWage(10);
         System.out.println(wage);
     }
