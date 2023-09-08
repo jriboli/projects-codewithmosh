@@ -35,7 +35,7 @@ public class Main {
 
         // COMPLEX TYPES / REFERENCE TYPES -------------------------
         Date now = new Date();
-        //now.getTime(); // Reference Types had members
+        //now.getTime(); // Reference Types have members
         System.out.println(now);
 
         // MEMORY MANAGEMENT VERSES 

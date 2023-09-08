@@ -9,7 +9,7 @@ public class Main {
         int y = 1;
         System.out.println(x == y);
 
-        // LOCICAL OPERATORS
+        // LOGICAL OPERATORS
         int temperature = 22;
         boolean isWarm = temperature > 20 && temperature < 30;
 
