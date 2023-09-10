@@ -1,8 +1,8 @@
 package com.codewithmosh.lesson_refactoring;
 
 public class MortgageCalculator {
-    public final static byte MONTHS_IN_YEAR = 12;
-    public final static byte PERCENT = 100;
+    private final static byte MONTHS_IN_YEAR = 12;
+    private final static byte PERCENT = 100;
     private int principal;
     private float annualRate;
     private byte loanPeriod;
@@ -35,8 +35,14 @@ public class MortgageCalculator {
         return mortgage;
     }
 
-    public byte getLoanPeriod(){
-        return loanPeriod;
+    public double[] getRemainingBalances(){
+        double[] balances = new double[getNumberOfPayments()];
+
+        for (short month = 1; month <= balances.length; month++) {
+            balances[month-1] = calculateBalance(month);
+        }
+
+        return balances;
     }
 
     private int getNumberOfPayments() {
