@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01df048-dd0f-4697-88bd-1196cd2bf30b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/exceptions/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/exceptions/ExceptionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/CollectionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/EmailComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/SetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/generics/GenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/generics/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/lambdas/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/lambdas/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/lambdas/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -20,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,15 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "codewithmosh-part3-advancedtopics",
-    "onboarding.tips.debug.path": "C:/Users/Justin/Documents/GitHub/projects-codewithmosh/Java_Part3_AdvancedTopics/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;codewithmosh-part3-advancedtopics&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Justin/Documents/GitHub/projects-codewithmosh/Java_Part3_AdvancedTopics/src/Main.java&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java_Part3_AdvancedTopics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,11 +81,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/codewithmosh/exceptions/ExceptionsDemo.java</url>
           <line>63</line>
