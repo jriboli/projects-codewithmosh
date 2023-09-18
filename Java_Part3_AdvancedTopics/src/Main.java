@@ -1,17 +1,62 @@
+import com.codewithmosh.collections.*;
+import com.codewithmosh.exceptions.ExceptionsDemo;
+import com.codewithmosh.generics.GenericList;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        ExceptionsDemo.show();
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        GenericList<String> genericList = new GenericList<>();
+        genericList.add("Rocket");
+        genericList.add("Drax");
+        genericList.add("Gamora");
+
+        // Initially this wont work because the GenericList class does not
+        // implement the ITERABLE interface
+        var iterator = genericList.iterator();
+        // [a, b, c]
+        //
+        while(iterator.hasNext()) {
+            var current = iterator.next();
+            System.out.println(current);
         }
+
+        // Literally for each loop is syntactical sugar for the above.
+        for(String name : genericList) {
+            System.out.println(name);
+        }
+
+        // If you look at the byte code for the While and For loops
+        // they use the same .hasNext and .next methods
+
+        // -------------------------------------------------------------
+
+        CollectionsDemo.show();
+        // -------------------------------------------------------------
+
+        List<Customer> customers = new ArrayList<>();
+        customers.add(new Customer("Rocket", "e3@guardians.com"));
+        customers.add(new Customer("Drax", "e2@guardians.com"));
+        customers.add(new Customer("Gamora", "e1@guardians.com"));
+        Collections.sort(customers);
+        System.out.println(customers);
+        // ------------------------
+        // One of sort() overloads accepts a Comparator class
+        Collections.sort(customers, new EmailComparator());
+        System.out.println(customers);
+        // -------------------------------------------------------------
+        QueueDemo.show();
+        // -------------------------------------------------------------
+        SetDemo.show();
+        // -------------------------------------------------------------
+
+
     }
 }
