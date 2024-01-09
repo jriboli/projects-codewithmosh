@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01df048-dd0f-4697-88bd-1196cd2bf30b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/EmailComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/collections/SetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/generics/GenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/generics/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/lambdas/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/lambdas/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codewithmosh/lambdas/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d01df048-dd0f-4697-88bd-1196cd2bf30b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
